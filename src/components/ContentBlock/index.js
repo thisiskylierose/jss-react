@@ -1,7 +1,5 @@
-// @flow
 import React from 'react';
 import { Text, RichText } from '@sitecore-jss/sitecore-jss-react';
-import type { ContentBlockProps } from './index.types';
 
 /**
  * A simple Content Block component, with a heading and rich text block.
@@ -9,7 +7,7 @@ import type { ContentBlockProps } from './index.types';
  * JSS component that's useful.
  */
 
-const ContentBlock = ({ fields }: ContentBlockProps) => (
+const ContentBlock = ({ fields }) => (
   <React.Fragment>
     <Text tag="h2" className="display-4" field={fields.heading} />
     <RichText className="contentDescription" field={fields.content} />
