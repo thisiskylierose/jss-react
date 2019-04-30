@@ -26,10 +26,10 @@
     "strictPropertyInitialization": false,
     "noImplicitAny": false,
     "sourceMap": false,
-    "watch": true
+    "watch": false
   },
   "include": [
-    "src"
+    "src/**/*.tsx"
   ],
   "exclude": [
     "node_modules",

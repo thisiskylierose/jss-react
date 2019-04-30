@@ -82,9 +82,11 @@
   },
   "scripts": {
     "jss": "jss",
-    "start": "npm-run-all --serial bootstrap:disconnected --parallel start:react start:proxy start:watch-components",
+    "start:tsc": "tsc --watch -p .",
+    "start": "npm-run-all --serial bootstrap:disconnected --parallel start:react start:proxy start:watch-components start:tsc",
     "start:connected": "scjss-verify-setup && npm-run-all --serial bootstrap:connected start:react start:watch-components",
-    "build": "npm-run-all --serial bootstrap:connected build:client build:server",
+    "build": "npm-run-all --serial bootstrap:connected build:tsc build:client build:server",
+    "build:tsc": "tsc -p .",
     "scaffold": "node scripts/scaffold-component.js",
     "start:react": "react-scripts start",
     "start:proxy": "node scripts/disconnected-mode-proxy.js",
