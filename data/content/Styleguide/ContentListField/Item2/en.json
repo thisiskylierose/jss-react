@@ -1,0 +1,8 @@
+{
+  "id": "styleguide-content-list-field-shared-2",
+  "displayName": "Styleguide Content List Item 2 (Shared)",
+  "template": "Styleguide-ContentList-Item-Template",
+  "fields": {
+    "textField": "ContentList Demo (Shared) Item 2 Text Field"
+  }
+}
