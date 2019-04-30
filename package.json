@@ -41,6 +41,7 @@
     "apollo-link-persisted-queries": "~0.2.2",
     "axios": "~0.18.0",
     "bootstrap": "~4.2.1",
+    "flow-bin": "0.98.0",
     "graphql": "~14.0.2",
     "graphql-tag": "~2.10.0",
     "i18next": "~13.1.2",
@@ -90,7 +91,8 @@
     "bootstrap:disconnected": "node scripts/bootstrap.js --disconnected",
     "graphql:update": "node -r babel-register ./scripts/update-graphql-fragment-data.js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "flow": "flow"
   },
   "browserslist": [
     ">0.2%",

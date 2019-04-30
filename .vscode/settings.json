@@ -1,5 +1,7 @@
 {
   "editor.rulers": [80],
   "editor.formatOnSave": true,
-  "editor.autoIndent": true
+  "editor.autoIndent": true,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
 }
